@@ -4,6 +4,13 @@ h1, h2, h3, h4, h5, h6 {
 .p-form-top {
     height: 120px;
 }
+.fc-direction-ltr {
+      padding-top: 70px;
+    }
+    #calendar a {
+      color: #337ab7;
+      text-decoration: none;
+    }
 .form-control, form-control-file {
   height: 45px;
 }
@@ -143,5 +150,6 @@ nav.navbar {
         }
       }
     }
+    
   }
 }
