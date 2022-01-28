@@ -29,7 +29,7 @@
       window.OneSignal = window.OneSignal || [];
       OneSignal.push(function() {
         OneSignal.init({
-        	appId: "${@environment.getProperty('onesignal.id')}"
+        	appId: /*[[${@environment.getProperty('onesignal.id')}]]*/
         });
       });
    </script>
