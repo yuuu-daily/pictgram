@@ -1,5 +1,4 @@
 spring:
-  datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://ec2-184-73-243-101.compute-1.amazonaws.com:5432/d1g8mqif4bhiv9
     username: jrlttjalcireef

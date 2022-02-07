@@ -18,6 +18,11 @@ public class SessionsController {
     public String index() {
         return "sessions/new";
     }
+    
+    @GetMapping(path = "/error")
+    public String err() {
+        return "sessions/new";
+    }
 
     @GetMapping(path = "/login-failure")
     public String loginFailure(Model model, Locale locale) {
