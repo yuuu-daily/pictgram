@@ -1,9 +1,4 @@
 spring:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://ec2-184-73-243-101.compute-1.amazonaws.com:5432/d1g8mqif4bhiv9
-    username: jrlttjalcireef
-    password: 5fb7aa33285eb1f88701a74e508536fda7c2edb0e5eaacaaba0901f4ede4ecb8
-
   h2:
     console:
       enabled: true
